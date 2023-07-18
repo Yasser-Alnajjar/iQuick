@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/images/logo.png">
+  <!-- Bootstrap v5.2.3 -->
+  <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+  <!-- Font Awesome v6.4.0 -->
+  <link rel="stylesheet" href="assets/css/vendors/all.min.css" />
+  <!-- Owl Carousel v2.3.4 -->
+  <link rel="stylesheet" href="assets/css/vendors/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/vendors/owl.theme.default.css" />
+  <!-- Main Style -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/chat.css" />
+  <link rel="stylesheet" href="assets/css/mediaQuery.css" />
+  <!-- Google Font -- Tajawal --  -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>ايكويك</title>
+</head>
+
+<body>
+
+  <header>
+    <!-- Start Navbar -->
+    <nav class="navbar  navbar-expand-lg  navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text-center mx-md-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav-link-coustom " aria-current="page" href="index.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-coustom me-0 me-md-3 me-lg-4" href="#advantages">مميزاتنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-coustom me-0 me-md-3 me-lg-4" href="packages.html">الباقات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-coustom me-0 me-md-3 me-lg-4" href="services.html">الخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-coustom me-0 me-md-3 me-lg-4" href="#contact-us">تواصل معنا</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center ">
+            <a href="register.html" class="btn nav-btn_sign_now">سجل الآن</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start  Carousel -->
+    <section class="head-carousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner  carousel_inner">
+          <div class="carousel-item active carousel_item">
+            <div></div>
+            <div class="login-container">
+              <div class="login-btn">
+                <a href="login.html">تسجيل الدخول</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel_item">
+            <div class="login-container">
+              <div class="login-btn">
+                <a href="login.html">تسجيل الدخول</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel_item">
+            <div class="login-container">
+              <div class="login-btn">
+                <a href="login.html">تسجيل الدخول</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev d-none d-md-flex" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next d-none d-md-flex" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- End Carousel -->
+    <!-- Start Chat -->
+    <div class="chat-btn" id="chat-btn">
+      <img src="./assets/images/chat/Vector.png" alt="Vector">
+    </div>
+    <div class="chat">
+      <div class="card-container" id="chat">
+        <div class="chat-card">
+          <div class="card-head">تواصل مباشرة معنا</div>
+          <div class="chat-body">
+            <div class="right">
+              <div class="chat-track">
+                <h5 class="user-name">أنت</h5>
+                <p class="massage">أواجه مشكلة وأريد بعض المساعدة</p>
+                <span class="time">1 س 20 دق</span>
+              </div>
+            </div>
+            <div class="left">
+              <div class="chat-track">
+                <div class="d-flex align-items-center justify-content-end gap-2">
+                  <img src="assets/images/chat/support.svg" alt="support">
+                  <h5 class="user-name">فريق الدعم</h5>
+                </div>
+                <p class="massage">أواجه مشكلة وأريد بعض المساعدة</p>
+                <span class="time">1 س 20 دق</span>
+              </div>
+            </div>
+            <div class="right">
+              <div class="chat-track">
+                <h5 class="user-name">أنت</h5>
+                <p class="massage">أواجه مشكلة وأريد بعض المساعدة</p>
+                <span class="time">1 س 20 دق</span>
+              </div>
+            </div>
+            <div class="left">
+              <div class="chat-track">
+                <div class="d-flex align-items-center justify-content-end gap-2">
+                  <img src="assets/images/chat/support.svg" alt="support">
+                  <h5 class="user-name">فريق الدعم</h5>
+                </div>
+                <p class="massage">أواجه مشكلة وأريد بعض المساعدة</p>
+                <span class="time">1 س 20 دق</span>
+              </div>
+            </div>
+            <div class="left">
+              <div class="chat-track">
+                <div class="d-flex align-items-center justify-content-end gap-2">
+                  <img src="assets/images/chat/support.svg" alt="support">
+                  <h5 class="user-name">فريق الدعم</h5>
+                </div>
+                <p class="massage">أواجه مشكلة وأريد بعض المساعدة</p>
+                <span class="time">1 س 20 دق</span>
+              </div>
+            </div>
+            <div class="right">
+              <div class="chat-track">
+                <h5 class="user-name">أنت</h5>
+                <p class="massage">أواجه مشكلة وأريد بعض المساعدة</p>
+                <span class="time">1 س 20 دق</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat-footer">
+            <form action="" method="post">
+              <div class="send">
+                <button class="send-btn" id="send-btn">
+                  <img src="assets/images/chat/send.png" alt="send">
+                </button>
+              </div>
+              <div class="emoji">
+                <img src="assets/images/chat/face.png" class="emoji-img" alt="face emoji">
+              </div>
+              <div class="message">
+                <input type="text" class="message-input" id="message-input" placeholder="اكتب استفسارك" name="chat">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Chat -->
+  </header>
+  <!-- Start Advantages -->
+  <section class="advantages" id="advantages">
+    <div class="container">
+      <div class="container-main-title">
+        <h2 class="main-title advantages-title">مميزاتنا</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-6 d-flex justify-content-center">
+          <div class="box my-4 d-flex align-items-center  justify-content-center gap-1 w-75">
+            <div class="icon">
+              <div class="icon-container">
+                <i class="fa-solid fa-check fs-4"></i>
+              </div>
+            </div>
+            <div class="right">
+              <div class="card">
+                <div class="card-title pe-3">الدقة</div>
+                <p class="m-0 pe-3">تفاصيل تفاصيل</>
+                <p class="text-muted m-0 pe-3">تفاصيل تفاصيل</p>
+              </div>
+            </div>
+            <div class="left">
+              <div class="card">
+                <div class="card-body">
+                  <div class="img-container">
+                    <img src="assets/images/advantages/target 1.svg" alt="target width=" 80px" height="80px" 1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 d-flex justify-content-center">
+          <div class="box my-4 d-flex align-items-center  justify-content-center gap-1 w-75">
+            <div class="icon">
+              <div class="icon-container">
+                <i class="fa-solid fa-check fs-4"></i>
+              </div>
+            </div>
+            <div class="right">
+              <div class="card">
+                <div class="card-title pe-3">السرعة</div>
+                <p class="m-0 pe-3">تفاصيل تفاصيل</p>
+                <p class="text-muted m-0 pe-3">تفاصيل تفاصيل</p>
+              </div>
+            </div>
+            <div class="left">
+              <div class="card">
+                <div class="card-body">
+                  <div class="img-container">
+                    <img src="assets/images/advantages/fast-time.svg" alt="fast-time" width="80px" height="80px">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div class="box my-4 d-flex justify-content-center align-items-center gap-1 w-75">
+            <div class="icon">
+              <div class="icon-container">
+                <i class="fa-solid fa-check fs-4"></i>
+              </div>
+            </div>
+            <div class="right">
+              <div class="card">
+                <div class="card-title pe-3">متابعة العميل</div>
+                <p class="m-0 pe-3">تفاصيل تفاصيل</p>
+                <p class="text-muted m-0 pe-3">تفاصيل تفاصيل</p>
+              </div>
+            </div>
+            <div class="left">
+              <div class="card">
+                <div class="card-body">
+                  <div class="img-container">
+                    <img src="assets/images/advantages/contact.svg" width="80px" height="80px" alt="contact">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Advantages -->
+  <!-- Start Packages -->
+  <section class="packages py-5">
+    <div class="container">
+      <div class="d-flex  flex-column align-items-center justify-content-center">
+        <h2 class="main-title packages-title">الباقات</h2>
+        <h2 class="w-50 text-center lh-base"> تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل
+          تفاصيل تفاصيل تفاصيل تفاصيل</h2>
+      </div>
+      <div class="d-flex my-5 align-items-center all-offer justify-content-end">
+        <a href="packages.html">
+          عرض جميع الباقات
+          <i class="fa-solid fa-chevron-left fa-xs"></i>
+        </a>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item" id="items">
+          <div class="card" id="card">
+            <div class=" container-card-img pt-3">
+              <img src="./assets/images/packages/offer.svg" class="card-img-top" alt="offer">
+            </div>
+            <h5 class="card-title mt-4 mb-2 text-center fs-4 fw-500">باقة التوفير</h5>
+            <div class="card-body">
+              <p class="card-text fw-500 mb-5 text-black text-break" id="text-packages">
+                تفاصيل الخدمة تفاصيل
+                تفاصيل
+                تفاصيل تفاصيل تفاصيل تفا....
+              </p>
+              <ul class="list-unstyled m-0 p-0 name-service" id="name-service">
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-card">
+              <div class="icons">
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+              </div>
+              <div class="bonus">+3</div>
+              <div class="rate">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span>4.9</span>
+              </div>
+              <a href="#" class="show-service">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="items">
+          <div class="card" id="card">
+            <div class=" container-card-img pt-3">
+              <img src="./assets/images/packages/offer.svg" class="card-img-top" alt="offer">
+            </div>
+            <h5 class="card-title mt-4 mb-2 text-center fs-4 fw-500">باقة التوفير</h5>
+            <div class="card-body">
+              <p class="card-text fw-500 mb-5 text-black text-break" id="text-packages">تفاصيل الخدمة تفاصيل
+                تفاصيل
+                تفاصيل تفاصيل تفاصيل تفا....</p>
+              <ul class="list-unstyled m-0 p-0 name-service" id="name-service">
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-card">
+              <div class="icons">
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+              </div>
+              <div class="bonus">+3</div>
+              <div class="rate">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span>4.9</span>
+              </div>
+              <a href="#" class="show-service">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="items">
+          <div class="card" id="card">
+            <div class=" container-card-img pt-3">
+              <img src="./assets/images/packages/offer.svg" class="card-img-top" alt="offer">
+            </div>
+            <h5 class="card-title mt-4 mb-2 text-center fs-4 fw-500">باقة التوفير</h5>
+            <div class="card-body">
+              <p class="card-text fw-500 mb-5 text-black text-break" id="text-packages">تفاصيل الخدمة تفاصيل
+                تفاصيل
+                تفاصيل تفاصيل تفاصيل تفا....</p>
+              <ul class="list-unstyled m-0 p-0 name-service" id="name-service">
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-card">
+              <div class="icons">
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+              </div>
+              <div class="bonus">+3</div>
+              <div class="rate">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span>4.9</span>
+              </div>
+              <a href="#" class="show-service">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="items">
+          <div class="card" id="card">
+            <div class=" container-card-img pt-3">
+              <img src="./assets/images/packages/offer.svg" class="card-img-top" alt="offer">
+            </div>
+            <h5 class="card-title mt-4 mb-2 text-center fs-4 fw-500">باقة التوفير</h5>
+            <div class="card-body">
+              <p class="card-text fw-500 mb-5 text-black text-break" id="text-packages">تفاصيل الخدمة تفاصيل
+                تفاصيل
+                تفاصيل تفاصيل تفاصيل تفا....</p>
+              <ul class="list-unstyled m-0 p-0 name-service" id="name-service">
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-card">
+              <div class="icons">
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+              </div>
+              <div class="bonus">+3</div>
+              <div class="rate">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span>4.9</span>
+              </div>
+              <a href="#" class="show-service">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="items">
+          <div class="card" id="card">
+            <div class=" container-card-img pt-3">
+              <img src="./assets/images/packages/offer.svg" class="card-img-top" alt="offer">
+            </div>
+            <h5 class="card-title mt-4 mb-2 text-center fs-4 fw-500">باقة التوفير</h5>
+            <div class="card-body">
+              <p class="card-text fw-500 mb-5 text-black text-break" id="text-packages">تفاصيل الخدمة تفاصيل
+                تفاصيل
+                تفاصيل تفاصيل تفاصيل تفا....</p>
+              <ul class="list-unstyled m-0 p-0 name-service" id="name-service">
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-card">
+              <div class="icons">
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+              </div>
+              <div class="bonus">+3</div>
+              <div class="rate">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span>4.9</span>
+              </div>
+              <a href="#" class="show-service">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="items">
+          <div class="card" id="card">
+            <div class=" container-card-img pt-3">
+              <img src="./assets/images/packages/offer.svg" class="card-img-top" alt="offer">
+            </div>
+            <h5 class="card-title mt-4 mb-2 text-center fs-4 fw-500">باقة التوفير</h5>
+            <div class="card-body">
+              <p class="card-text fw-500 mb-5 text-black text-break" id="text-packages">تفاصيل الخدمة تفاصيل
+                تفاصيل
+                تفاصيل تفاصيل تفاصيل تفا....</p>
+              <ul class="list-unstyled m-0 p-0 name-service" id="name-service">
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-card">
+              <div class="icons">
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+              </div>
+              <div class="bonus">+3</div>
+              <div class="rate">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span>4.9</span>
+              </div>
+              <a href="#" class="show-service">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="items">
+          <div class="card" id="card">
+            <div class=" container-card-img pt-3">
+              <img src="./assets/images/packages/offer.svg" class="card-img-top" alt="offer">
+            </div>
+            <h5 class="card-title mt-4 mb-2 text-center fs-4 fw-500">باقة التوفير</h5>
+            <div class="card-body">
+              <p class="card-text fw-500 mb-5 text-black text-break" id="text-packages">تفاصيل الخدمة تفاصيل
+                تفاصيل
+                تفاصيل تفاصيل تفاصيل تفا....</p>
+              <ul class="list-unstyled m-0 p-0 name-service" id="name-service">
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+                <li class="w-75 mb-2 text-center list-packages">
+                  <div class="icon">
+                    <i class="fa-solid fa-check fs-6"></i>
+                  </div>
+                  <span>التوفير</span>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-card">
+              <div class="icons">
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-check fs-6"></i>
+                </div>
+              </div>
+              <div class="bonus">+3</div>
+              <div class="rate">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span>4.9</span>
+              </div>
+              <a href="#" class="show-service">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Packages -->
+  <!-- Start Services -->
+  <section class="services py-5">
+    <div class="container">
+      <!-- Start Main Title -->
+      <div class="d-flex flex-column align-items-center justify-content-center">
+        <h2 class="main-title gray">الخدمات</h2>
+        <h2 class="w-50 text-center lh-base"> تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل
+          تفاصيل تفاصيل تفاصيل تفاصيل</h2>
+      </div>
+      <!-- End Main Title -->
+      <!-- Start  Boxes -->
+      <div class="row ">
+        <div class="col-sm-12  col-md-6 col-lg-3 d-flex  align-items-stretch">
+          <div class="box mt-3">
+            <div class="d-flex justify-content-center py-3">
+              <img src="./assets/images/services/services.svg" class="" alt="services">
+            </div>
+            <div class="card-title text-center">
+              خدمة مميزة
+            </div>
+            <p class="card-text">تفاصيل الخدمة تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل ....</p>
+            <div class="d-flex flex-wrap pb-2 justify-content-center show-services">
+              <a href="#" class="service-btn">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12  col-md-6 col-lg-3 d-flex  align-items-stretch">
+          <div class="box mt-3">
+            <div class="d-flex justify-content-center py-3">
+              <img src="./assets/images/services/services.svg" class="" alt="services">
+            </div>
+            <div class="card-title text-center">
+              خدمة مميزة
+            </div>
+            <p class="card-text">تفاصيل الخدمة تفاصيل تفاصيل
+              تفاصيل تفاصيل تفاصيل تفا....</p>
+            <div class="d-flex flex-wrap pb-2 justify-content-center show-services">
+              <a href="#" class="service-btn">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12  col-md-6 col-lg-3 d-flex  align-items-stretch">
+          <div class="box mt-3">
+            <div class="d-flex justify-content-center py-3">
+              <img src="./assets/images/services/services.svg" class="" alt="services">
+            </div>
+            <div class="card-title text-center">
+              خدمة مميزة
+            </div>
+            <p class="card-text">تفاصيل الخدمة تفاصيل تفاصيل
+              تفاصيل تفاصيل تفاصيل تفا....</p>
+            <div class="d-flex flex-wrap pb-2 justify-content-center show-services">
+              <a href="#" class="service-btn">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12  col-md-6 col-lg-3 d-flex  align-items-stretch">
+          <div class="box mt-3">
+            <div class="d-flex justify-content-center py-3">
+              <img src="./assets/images/services/services.svg" class="" alt="services">
+            </div>
+            <div class="card-title text-center">
+              خدمة مميزة
+            </div>
+            <p class="card-text">تفاصيل الخدمة تفاصيل تفاصيل
+              تفاصيل تفاصيل تفاصيل تفا....</p>
+            <div class="d-flex flex-wrap pb-2 justify-content-center show-services">
+              <a href="#" class="service-btn">عرض الخدمات</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End  Boxes -->
+      <!-- Start All offer -->
+      <div class="d-flex mt-4 align-items-center all-offer justify-content-end">
+        <a href="services.html">
+          عرض جميع الخدمات
+          <i class="fa-solid fa-chevron-left fa-xs"></i>
+        </a>
+      </div>
+      <!-- End All offer -->
+  </section>
+  <!-- End Services -->
+  <!-- Start Contact Us -->
+  <section class="contact-us" id="contact-us">
+    <div class="container">
+      <div class="main-title">تواصل معنا</div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="mt-5">
+            <form>
+              <div class="mb-3">
+                <input type="text" placeholder="الإسم" class="form-control" id="exampleInputEmail1"
+                  aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <input type="text" placeholder="رقم الهاتف" class="form-control" id="exampleInputEmail1"
+                  aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <input type="email" placeholder="البريد الإلكتروني" class="form-control" id="exampleInputEmail1"
+                  aria-describedby="emailHelp">
+              </div>
+              <textarea class="form-control" placeholder="محتوى الرسالة" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <button type="submit" class="btn bg-input w-100 text-white mt-3">إرسال</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <img src="./assets/images/contact-us/contact-us.png" class="img-fluid" alt="contact-us">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Us -->
+  <!-- Start Footer -->
+  <footer class="end-page">
+    <div class="container">
+      <div class="end-page_image me-4">
+        <img src="./assets/images/logo.png" alt="logo">
+      </div>
+      <div class="mt-4">
+        <div class="row">
+          <div class="col-lg-5">
+            <p class="text-sm-center  mb-3 text-start">جزء تعريفي بالنوقع أو الشركةتفاصيل تفاصيل تفاصيل تفاصيل تفاصيل
+              تفاصيل
+              تفاصيل
+              تفاصيل تفاصيل تفاصيل .</p>
+          </div>
+          <div class="col-lg-4">
+            <ul class="list-unstyled  mb-3 d-flex flex-column  justify-content-center gap-2">
+              <li class="text-center"><a class="text-decoration-none " href="#">سياسة الخصوصية</a></li>
+              <li class="text-center"><a href="#" class="text-decoration-none ">شروط الإستخدام</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <div class="social mb-3 ">
+              <a href="#" class="social-item">
+                <i class="fab fa-facebook-f fa-xl"></i>
+              </a>
+              <a href="#" class="social-item">
+                <i class="fa-brands fa-linkedin-in fa-xl"></i>
+              </a>
+              <a href="#" class="social-item">
+                <i class="fa-brands fa-twitter fa-xl"></i>
+              </a>
+              <a href="#" class="social-item">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <!-- Javascript -->
+  <script src="assets/js/vendors/all.min.js"></script>
+  <script src="assets/js/vendors/bootstrap.bundle.js"></script>
+  <script src="assets/js/vendors/jquery-3.6.4.min.js"></script>
+  <script src="assets/js/vendors/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      responsiveClass: true,
+      dots: false,
+      rtl: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
+        },
+        600: {
+          items: 2,
+          nav: false
+        },
+        1000: {
+          items: 4,
+          nav: true,
+          loop: false
+        }
+      }
+    })
+
+  </script>
+  <script src="assets/js/app.js"></script>
+  <!-- Javascript -->
+</body>
+
+</html>
